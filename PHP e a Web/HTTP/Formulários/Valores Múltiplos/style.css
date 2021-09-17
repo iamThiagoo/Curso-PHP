@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    outline: none;
+    font-size: 62.5%;
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.inputss{
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.inputss input{
+    border: 2px solid gray;
+    padding: 1rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.checkbox-container{
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+#submit-btn input{
+    color: #fff;
+    background-color: rgb(20, 86, 209);
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+#submit-btn input:hover{
+    opacity: .8;
+}

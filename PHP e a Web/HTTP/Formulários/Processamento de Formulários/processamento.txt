@@ -1,0 +1,10 @@
+Faremos o processamento de formularios como duas maneiras: get e post.
+GET = Vamos processar os parâmetros que vem na query string, ou seja na URL.
+      Exemplo de uso => Buscas
+
+POST = Vamos processar as informações que vem na requisição, estas não aparecem na URL.
+      Exemplo de uso => Registro de usuário
+
+No formulário do arquivo HTML ou PHP iremos ter o action e o method, no primeiro será aonde iremos colocar 
+para onde queremos que as informações vão quando o usuário clicar em enviar, e no segundo iremos impor o método
+(GET ou POST). EX: action = "backend.php" method = "post" 

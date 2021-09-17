@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário com Post</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <form action="cadastro.php" method="POST">
+                <h1>Cadastro de clientes</h1>
+                <div class="inputss">
+                    <div class="inputizin">
+                        <input type="text" name="nome" placeholder="Nome completo" required>
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="inputizin">
+                        <input type="email" name="email" placeholder="Email" required>
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="inputizin">
+                        <input type="password" name="senha" placeholder="Senha" required>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="inputizin" id="submit-btn">
+                        <input type="submit" value="Confirmar">
+                    </div>
+                </div>
+            </form>
+        </main>
+        <script src="https://kit.fontawesome.com/db9bd9c113.js" crossorigin="anonymous"></script>
+    </body>
+</html>

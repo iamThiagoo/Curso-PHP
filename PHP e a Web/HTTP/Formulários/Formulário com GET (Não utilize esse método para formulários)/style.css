@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form input{
+    font-size: 1.6rem;
+    border: 0;
+    padding: 1rem;
+    width: 87%;
+    background: none;
+}
+
+form .inputizin{
+    border: 2px solid gray;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+form .inputizin i{
+    font-size: 1.8rem;
+}
+
+form .submit input{
+    background-color: rgb(33, 144, 235);
+    color: #fff;
+    width: 100%;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+form .submit input:hover{
+    opacity: .8;
+    transition: 1s;    
+}

@@ -1,0 +1,7 @@
+<?php
+
+    // Quando tivermos valores múltiplos para um input, como é o caso do checkbox
+    // precisamos receber todos eles no backend, então nos iremos adicionar uma sintaxe 
+    // de array no nosso name.
+    // Desta forma iremos receber todos os valores marcados do input
+    // EX: <input type="checkbox" name="gostos[]">

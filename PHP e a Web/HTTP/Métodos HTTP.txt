@@ -1,0 +1,10 @@
+As requisições que enviamos também contém métodos, alguns deles são:
+
+GET => Solicita a apresentação de algum recurso (visualização de página, busca);
+POST => Envio de dados ao servidor (cadastro de novos clientes);
+
+E temos outros que são usados porém com outras motodologias e geralmente com o auxílio de API, que são:
+
+PUT => Atualização de dados;
+DELETE => Remoção de dados;
+PATCH => Atualização de dado específico;

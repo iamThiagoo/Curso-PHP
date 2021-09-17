@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulário com GET</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <!-- NÃO É RECOMENDADO USAR GET NO FORMULÁRIO PORÉM PARA USO DIDÁTICO O USAREMOS-->
+            <!-- MAS POR QUE NÃO? UM DAS RAZÕES É QUE ELE JOGA AS INFORMAÇÕES DO USUÁRIO NA URL, O QUE PODE SER PERIGOSO -->
+            <form action="backend.php" method="GET">
+                <div class="inputizin">
+                    <input type="text" name="nome" placeholder="Digite o seu nome">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="inputizin">
+                    <input type="number" name="idade" placeholder="Digite a sua idade">
+                    <i class="fas fa-birthday-cake"></i>
+                </div>
+                <div class="submit">
+                    <input type="submit" value="Confirmar">
+                </div>
+            </form>
+        </main>
+        <script src="https://kit.fontawesome.com/db9bd9c113.js" crossorigin="anonymous"></script>
+    </body>
+</html>

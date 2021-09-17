@@ -1,0 +1,7 @@
+A variável $_SERVER contém bastante informação importante como:
+
+SERVER-SOFTWARE => Identificação do servidor;
+SERVER-NAME => Hostname, DNS ou IP do servidor;
+SERVER-PROTOCOL => Protocolo do servidor;
+SERVER-PORT => Porta do servidor;
+QUERY-STRING => Argumentos após ? na URL;
