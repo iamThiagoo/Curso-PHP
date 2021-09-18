@@ -1,0 +1,11 @@
+Com as sessions podemos criar uma variável que persiste em diferentes páginas e também pendura 
+em várias visitas ao site.
+Ele utiliza recursos do cookie para seu funcionamento, porém se os cookies tiverem desabilitados, ele pro-
+paga a sessão via URL;
+Elas são usadas para: autenticação, carrinho de compras, entre outros.
+
+//
+
+As sessions são salvas em arquivos no computador que estamos ou no servidor
+O caminho que elas ficam guardadas é em "php.ini" na configuração "session.save_path"
+Elas podem ser salvas em dois formatos: em PHP e também Web Distributed Data eXchange (WDDX)

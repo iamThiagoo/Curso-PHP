@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste - Envio de arquivos</title>
+</head>
+<body>
+    <main>
+        <form action="backend.php" method="POST" enctype="multipart/form-data">
+            <div class="inputizin">
+                <label for="file">Escolher arquivo</label>
+                <input type="file" name="image" id="file">
+            </div>
+            <div class="inputizin">
+                <input type="submit" id="submit-btn" value="Confirmar">
+            </div>
+        </form>
+    </main>    
+</body>
+</html>

@@ -1,0 +1,3 @@
+Para fazer o upload de arquivos ao servidor, será preciso mudar o enctype do formulário para "multipart/form-data"
+Além de ser preciso contar com um input do tipo file em seu arquivo
+Depois do envio, todos os arquivos irão estar na variável $_FILES

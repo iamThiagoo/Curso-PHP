@@ -1,0 +1,4 @@
+A validação do formulário é muito importante no recebimento de dados
+Por isso devemos checar se os dados que estamos recebendo condizem com o esperado
+Para fazer isso podemos criar condicionais fazendo as verificações
+Caso alguma não atenda o requisito, nós retornaremos uma mensagem ao usuário.

@@ -1,0 +1,4 @@
+O HTTP é um protocolo que não mantém o estado (stateless).
+Ou seja, quando se encerra a requisição, também se encerra a conexão entre servidor e usuário
+Para que nós consigamos manter esses dados, iremos utilizar os cookies.
+A parte ruim é que para alguns navegadores não é permitido o uso deles ou os bloqueiam.
