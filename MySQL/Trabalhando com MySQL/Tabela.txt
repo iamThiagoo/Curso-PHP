@@ -1,0 +1,34 @@
+// As tabelas ficam dentro dos banco de dados, e os dados ficam dentro delas, para criar elas podemos fazer o seguinte:
+CREATE TABLE nomedatabela (
+    coluna tipodedado,
+    coluna2 tipodedado
+);
+
+
+// Para remover uma table (CASO SEJA PRECISO), utilize:
+DROP TABLE nomedatabela;
+
+
+// Se quisermos alterar a nossa tabela podemoas mexer com algumas operações como: adicionar/deletar/modificar uma coluna, comandos
+para alterar tabelas começam com:
+ALTER TABLE nomedatabela
+ADD COLUMN nomedacoluna ou DROP COLUMN nomedacoluna ou MODIFY COLUMN nomedacoluna;
+
+
+// Constraints: São características que podem ser adicionadas na hora da criação de uma tabela, temos 3 tipos: NOT NULL, UNIQUE, PRIMARY KEY.
+    - Not Null: Não deixa adicionarmos um campo vazio.
+    - Unique: Não deixa adicionarmos um dado repetido. 
+    - Primary Key: Dever ter valores únicos e não podemos ser nulas, elas são geralmente usadas em ids com o AUTO_INCREMENT
+
+
+// Inserindo dados: Para inserir algum dado você precisa especificar a tabela e a coluna do dado que será adicionado:
+
+    EX: INSERT INTO tabela(nomedacoluna) VALUES ("Thiago");
+
+
+// Selecionando dados: Para selecionar dados se usa SELECT e devemos selecionar as tabelas e as colunas selecionadas, podemos usar o * para selecionar todas as colunas
+
+    EX: SELECT * FROM tabela;
+
+    - Mas seria interessante se a gente resgatasse apenas o necessário da nossa tabela. Por exemplo:
+    SELECT nome FROM tabela; 

@@ -1,0 +1,7 @@
+- Para criar uma tabela no MySQL/SQL será:
+
+CREATE DATABASE nomedobanco; (Todas as instruções em maiúsculo).
+
+Para deletar um banco de dados (PENSE BEM) será:
+
+DROP DATABASE nomedobanco;

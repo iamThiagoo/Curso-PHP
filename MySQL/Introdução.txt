@@ -1,0 +1,6 @@
+O PHP tem suporte a mais de 20 bancos de dados (sendo relacional ou não);
+E a forma algumas formas de conectar o banco de dados com o PHP, sendo o mais famoso o PDO (PHP Data Objects) pois 
+é mais fácil fazer a integração com outro caso mude, mas também temos a opção do mysqli.
+
+O banco de dados relacional tem como principal característica trabalhar com tabelas onde irá possuir colunas que irá catalogar
+os dados, e o PHP é acaba sendo muito utlizida nesse tipo de banco.

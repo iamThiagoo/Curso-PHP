@@ -1,0 +1,8 @@
+Os tipos de dados funcionam que em variáveis, porém para melhorar a performance,
+Temos os seguintes principais tipos de dados: 
+
+- VARCHAR: texto de 0 a 65535 caracteres (ideal para nomes, email, senha, etc);
+- TEXT: texto com no máximo 65535 bytes (ideal para quando a gente não faz ideia nenhuma do tamanho do texto, como exemplo: matéria de um blog);
+- INT: números inteiros;
+- BIGINT: números inteiros com maior proporção que o INT;
+- DATE: data no formato YYYY/MM/DD
