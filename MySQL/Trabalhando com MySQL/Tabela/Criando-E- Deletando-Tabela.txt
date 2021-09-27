@@ -1,0 +1,15 @@
+// As tabelas ficam dentro dos banco de dados, e os dados ficam dentro delas, para criar elas podemos fazer o seguinte:
+CREATE TABLE nomedatabela (
+    coluna tipodedado,
+    coluna2 tipodedado
+);
+
+
+// Para remover uma table (CASO SEJA PRECISO), utilize:
+DROP TABLE nomedatabela;
+
+
+// Se quisermos alterar a nossa tabela podemoas mexer com algumas operações como: adicionar/deletar/modificar uma coluna, comandos
+para alterar tabelas começam com:
+ALTER TABLE nomedatabela
+ADD COLUMN nomedacoluna ou DROP COLUMN nomedacoluna ou MODIFY COLUMN nomedacoluna;

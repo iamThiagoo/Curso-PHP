@@ -1,0 +1,9 @@
+o WHERE é usado para filtrar registros, e nós iremos resgatar apenas dados que batem com as características
+que estamos pedindo.
+EXEMPLO:
+
+SELECT colunas
+FROM tabela
+WHERE condição
+
+Lembrando que podemos usar condicionais no WHERE

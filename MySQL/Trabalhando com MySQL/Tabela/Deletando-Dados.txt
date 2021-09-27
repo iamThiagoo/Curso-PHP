@@ -1,0 +1,11 @@
+Para deletar algum dado no SQL, iremos usar a seguinte sintaxe:
+
+DELETE FROM tabela
+WHERE condição;
+
+Se a gente quer apagar linha 8 da tabela de usuários, iremos fazer dessa forma:
+
+DELETE FROM usuários
+WHERE id = 8; 
+
+É extremamente necessário usar o WHERE pois se não você apagará deletando toda a sua tabela.

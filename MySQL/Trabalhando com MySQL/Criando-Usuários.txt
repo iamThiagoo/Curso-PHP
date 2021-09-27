@@ -1,0 +1,10 @@
+Caso ocorra um problema com o user root e quisermos criar um novo usuário, dando todos os privilégios, usaremos dando
+seguinte sintaxe:
+
+CREATE USER "usuario"@"localhost" IDENTIFIED BY "senha"; 
+GRANT ALL PRIVILEGES ON *.* TO "usuario"@"localhost";
+FLUSH PRIVILEGES;
+
+Podemos saber todos os usuários do nosso banco, usando a query global:
+
+SELECT * FROM mysql.user;

@@ -1,0 +1,3 @@
+Inserindo dados: Para inserir algum dado você precisa especificar a tabela e a coluna do dado que será adicionado:
+
+EX: INSERT INTO tabela(nomedacoluna) VALUES ("Thiago");

@@ -1,0 +1,8 @@
+Para atualizar algum dado, iremos utilizar da seguinte sintaxe:
+
+UPDATE tabela
+SET coluna1 = valor1
+WHERE condicao;
+
+Um UPDATE sem o WHERE irá carretar na atualização de todos os dados da sua tabela;
+Lembrando que podemos atualizar mais de um dado

@@ -1,0 +1,4 @@
+Constraints: São características que podem ser adicionadas na hora da criação de uma tabela, temos 3 tipos: NOT NULL, UNIQUE, PRIMARY KEY.
+    - Not Null: Não deixa adicionarmos um campo vazio.
+    - Unique: Não deixa adicionarmos um dado repetido. 
+    - Primary Key: Dever ter valores únicos e não podemos ser nulas, elas são geralmente usadas em ids com o AUTO_INCREMENT

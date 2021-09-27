@@ -1,0 +1,4 @@
+Para ordenar dados com base em alguma coluna, iremos usar o ORDER BY, para que assim possamos ordenar de forma
+crescente (ASC) ou decrescente (DESC);
+
+EX: ORDER BY coluna ASC;
