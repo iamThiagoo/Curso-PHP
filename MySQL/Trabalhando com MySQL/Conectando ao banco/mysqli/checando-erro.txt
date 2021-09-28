@@ -1,0 +1,8 @@
+Para checar se houver um erro na conexão, podemos utilizar a propriedade connect_errno, ao utilizar o new mysqli;
+E para verificar o erro utilize a propriedade connect_error
+Para isso iremos inserir em um if
+
+if($conn->connect_errno){
+    echo "Houve um erro! <br>";
+    echo "Erro: " . $conn->connect_error;
+}

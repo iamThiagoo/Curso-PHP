@@ -1,0 +1,9 @@
+Para conectar ao mysqli é bem simples é só usar a função mysqli_connect() e após passar os parâmetros: "host", "usuário",
+"senha" e "banco de dados";
+
+Com a conexão feita, podemos utilizar as queries:
+
+EX: $conexão = new mysqli("host", "user", "pass", "db");
+
+Diferença: Com o mysqli_connect é de forma não orientada a objetos;
+            e com new mysqli é da forma orientada a objetos;

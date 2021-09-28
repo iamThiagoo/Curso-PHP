@@ -1,0 +1,7 @@
+mysqli = é uma extensão do próprio PHP para conectar a um banco MySQL, e tem uma proximidade com o código nativo,
+sendo mais rápido que o PDO.
+
+PDO = É uma API para banco de dados, com suporte a mais de 20 bancos de dados, acaba abstraindo algumas abordagens
+do PHP, por isso sendo mais lenta.
+
+Mas ambas as formas podem ser orientadas a objetos.
